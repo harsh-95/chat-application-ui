@@ -1,0 +1,33 @@
+.contactsHeaderContainer{
+    /* height: 100px; */
+}
+
+.logoDiv{
+    border-bottom: 1px solid #eee;
+}
+
+.contactSearchWrap{
+    text-align: left;
+    padding: 0 10px 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contactsOptions{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+
+.contactsText{
+    font-weight: 700;
+}
+
+.contactsSearchDiv input{
+    border: none;
+    width: 100%;
+    background-color: #eee;
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+}

@@ -1,0 +1,49 @@
+.messageInputContainer {
+    width: 98%;
+    margin: 10px;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+
+.messageInputWrap {
+    display: flex;
+    padding: 10px;
+    width: 95%;
+}
+
+.messageInputDiv {
+    width: 100%;
+}
+
+.messageInputDiv input {
+    width: -webkit-fill-available;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.messageAttachments, .messageEmojis {
+    padding: 0 10px;
+    color: #aaa;
+}
+
+.messageEmojis {
+    padding-right: 20px;
+}
+
+.messageSendButtonDiv {
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+.messageSendButtonDiv button {
+    border-radius: 50%;
+    height: 37px;
+    width: 37px;
+    background-color: #60f05d;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}

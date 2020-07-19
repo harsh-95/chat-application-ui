@@ -1,0 +1,10 @@
+.chatAreaMainContainer{
+    border: 1px solid #eee;
+    flex-grow: 1;
+}
+
+.chatAreaMainDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

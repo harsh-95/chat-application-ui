@@ -1,0 +1,23 @@
+.sidebarNavMenuContainer{
+    border: 1px solid #04151f;
+    background-color: #04151f;
+    padding: 10px;
+}
+
+.sidebarNavMenuDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.sidebarNavTopMenu .fa, .sidebarNavBottomMenu .fa{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sidebarMenuIcon{
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 20px;
+}

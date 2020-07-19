@@ -1,0 +1,6 @@
+.sidebarContactsContainer{
+    border-right: 1px solid #eee;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}

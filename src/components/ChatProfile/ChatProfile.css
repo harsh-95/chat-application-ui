@@ -1,0 +1,65 @@
+.chatProfileConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatProfileDiv{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.chatProfileIcon{
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 75px;
+    color: #ffffff;
+}
+
+.chatProfileIcon span{
+    line-height: 1.5;
+}
+
+.chatProfileInfo{
+    align-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 18px;
+}
+
+.chatProfileName{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.chatProfileEmail{
+    font-size: 12px;
+}
+
+.chatProfileOptions{
+    margin: 10px 0;
+}
+
+.chatProfileOptions button{
+    margin-right: 5px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+    .chatProfileIcon{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .chatProfileIcon span{
+        line-height: unset;
+    }
+}

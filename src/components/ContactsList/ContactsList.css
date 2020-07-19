@@ -1,0 +1,96 @@
+.contactsListDiv {
+    overflow-y: scroll;
+    height: calc(100vh - 138px);
+}
+
+/*hide scrollbar but keep functionality*/
+.contactsListDiv::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.contactsListDiv {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.contactDiv {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.contactIcon {
+    width: 23px;
+    height: 23px;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.color0{
+    background-color: #FFA737;
+}
+.color1{
+    background-color: #49DD2E;
+}
+.color2{
+    background-color: #e685dd;
+}
+.color3{
+    background-color: #1bdece;
+}
+.color4{
+    background-color: #718ede;
+}
+
+.contactInfo {
+    align-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.contactName {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.contactDesignation {
+    font-size: 12px;
+}
+
+.contactOptions {
+    align-self: center;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.contactOptions .contactEdit, .contactDelete {
+    color: #bbb;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contactOptions .contactEdit:hover, .contactDelete:hover {
+    color: #222;
+}
+
+@media(max-width: 700px) {
+    .contactOptions .contactEdit, .contactDelete {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 585px) {
+    .contactsListDiv {
+        height: calc(70vh - 107px);
+    }
+}

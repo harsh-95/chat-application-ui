@@ -1,0 +1,15 @@
+.sidebarMainContainer{
+    border-right: 1px solid #eee;
+}
+
+.sidebarContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+@media(max-width: 585px) {
+    .sidebarMainContainer{
+        height: 74vh;
+    }
+  }

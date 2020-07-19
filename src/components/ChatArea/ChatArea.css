@@ -1,0 +1,18 @@
+.chatAreaContainer{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+/*hide scrollbar but keep functionality*/
+.chatAreaContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.chatAreaContainer {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
